@@ -1,13 +1,12 @@
 sudo: required
 services:
-  - docker
-
+- docker
 before_install:
-  - docker build -t cauldyclark15/docker-react .
-
+- openssl aes-256-cbc -K $encrypted_715eae7ee47e_key -iv $encrypted_715eae7ee47e_iv
+  -in client_key.json.enc -out client_key.json -d
+- docker build -t cauldyclark15/docker-react .
 script:
-  - docker run cauldyclark15/docker-react npm run test -- --coverage
-
+- docker run cauldyclark15/docker-react npm run test -- --coverage
 deploy:
   provider: gae
   keyfile: client_key.json
