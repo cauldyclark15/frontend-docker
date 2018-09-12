@@ -10,7 +10,7 @@ script:
 
 deploy:
   provider: gae
-  keyfile: 'client_key.json.enc'
+  keyfile: client_key.json
   project: kubernetes-fiddle-trial
   on:
     branch: master

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "kubernetes-fiddle-trial",
+  "private_key_id": "422a828cd892634266e39bb251a48df2b8f75947",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC9dJ+cVK5or0h5\n7tfQexwQXyP04yHi3GDk4L8pxT22mEz/mQcmepBjebZd/kZEhijf7LCg7NWMwTYc\nn4jEWZX8bBm8h2gg8shlD1zY60CkwitygO/+19YAkFdp899ByDiUaOgok4Jf53gr\n7+NJl1lDb60/bv+sG89A+C5wrKV5eJK0iGbMwk6g3PIG5CYVsGA4YhZ635PrbQzE\nUd/XF7GMASivbJ+BqN3CC9Eyw/HgPpWzNiGz7I3N1nolDW4EuKkriwWpCMgiRBOo\n8wlNP1IQ1PPG38Dv726FJyC3RkUANe5Kzpdz/nNc425ElS4FnXbJ2SdFkoHCiXNg\n/0wTdUcDAgMBAAECggEAAh+Q/GEMlVrFjqxJGeqPTXWrgv6arh63LUmBivfNccLy\nNfkileFQxfSiwRns8q6oPZ46+oq89/dgYmC9WSoB3tLdVPoVhi0CZvONoFa+ojoU\n35MnXW1Q1i/H8wWLLoMOc0dbtry0fNuswp1NKFF8bB+PywK09dpX78v4RUYCEsLs\nvL7TD4vV8wqWhWm/FIsiowreBsL0dMO+bQTO8y3ppBfS+fvYKt+UvZlpk69Ugvgk\nWGL03RxR8k8Cn9yPeconyaqDFYloY4B7WZl/sP5sq9wdH+Mg1xITC2XtVXDL5Skt\nJvTOIt4eoGVL5GFg5WLY2KVtX/co1/n0bGFlvwidaQKBgQDnRs++r2JDAcBCOZbH\nvBIrkLxX8KMuHodm0S5be0IRJFVjMgStzOeHpNuOniIg50/Elg8py2t85ens+zHZ\nKg3vsrV9AG/Fm1Vq0MyAh3fJYb/0LxJ5y5NoLLZ5ApXZYCfLuux9u/8+0zgbz7QH\nmW5BnEAf0VrtoEC7r0AfolCmCwKBgQDRtVLznjIKRS04bYklFsxS6mQFbBgS8kuH\nXH1GrAu2XFsPnu2OH3656ChbSvL08QmLZYrpPw0oYyWPeUJ0109hh14/RlAxFpML\nzOAz6BHjjYXt/dW84MXwkk6Xi4Q2qZ1y2nwfD5CMA9urGPIhzKTumhJP/Kg48bvE\n/wKSPRXV6QKBgQCAk8KdXX4AiLGtX7zu8CUd6Up8jYD6++gFBliCbYUuaIe8LSui\nwF8b71BM+qc4qcCUJ2TotHnepyelI4X0GMhEsZLqmtqI/rG/P7Ph5O54nAqOo7je\n04nxCaKspf5PKoEVZ6dgw6rE78Kq249YBjng6hBQYCDwKP60GVtJ+wBhPwKBgDyK\nhHAgc4HThsKLnNRASKyHTmjiU/DkUjm50dDdSmRTNVbFIv+syAETrNLuSEW+cGr1\n3ayIr1vBg85vy2e/4QLe+a56thv10G3Pr8pMbR2sdcXHSjVFDt/s3ROTC5BcV0AZ\nI0w0Sh6h3oD+qqhnVBYuFKtS3Z3S68prdGqTiAJBAoGBAK1VufEfPClGJ7CL1vop\n3ATVP4BSCKxmOFlilUAGPr8E9JAtemRCfdt6yqjlR+q6/41A/xMa7F4hpo/pO+6g\n6+SzAXG4Z/knaAayKZ6PYv+vd63yGCzPtCTHXuDzWQ46dk4ocsgZFvRzZ+/vczbg\ndifmsSfS4/EQ64rcm+YMqIyX\n-----END PRIVATE KEY-----\n",
+  "client_email": "kubernetes-fiddle-trial@appspot.gserviceaccount.com",
+  "client_id": "116825787824564760815",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kubernetes-fiddle-trial%40appspot.gserviceaccount.com"
+}
