@@ -4,9 +4,9 @@ services:
 before_install:
 - openssl aes-256-cbc -K $encrypted_715eae7ee47e_key -iv $encrypted_715eae7ee47e_iv
   -in key.json.enc -out key.json -d
-- docker build -t cauldyclark15/docker-react -f Dockerfile.dev .
+- docker build -t cauldyclark15/frontend-docker -f Dockerfile.dev .
 script:
-- docker run cauldyclark15/docker-react npm run test -- --coverage
+- docker run cauldyclark15/frontend-docker npm run test -- --coverage
 deploy:
   provider: gae
   keyfile: key.json
