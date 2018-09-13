@@ -3,13 +3,13 @@ services:
 - docker
 before_install:
 - openssl aes-256-cbc -K $encrypted_715eae7ee47e_key -iv $encrypted_715eae7ee47e_iv
-  -in key.json.enc -out key.json -d
+  -in general-4b133df6bc99.json.enc -out general-4b133df6bc99.json -d
 - docker build -t cauldyclark15/frontend-docker -f Dockerfile.dev .
 script:
 - docker run cauldyclark15/frontend-docker npm run test -- --coverage
 deploy:
   provider: gae
-  keyfile: key.json
+  keyfile: general-4b133df6bc99.json
   project: general-216301
   docker_build: remote
   default: true
