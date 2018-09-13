@@ -10,8 +10,8 @@ script:
 deploy:
   provider: gae
   keyfile: client_key.json
-  project: kubernetes-fiddle-trial
-  docker_build: 'remote'
+  project: general-216301
+  docker_build: remote
   default: true
   on:
     branch: master
